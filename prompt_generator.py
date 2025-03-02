@@ -21,7 +21,7 @@ class GeneratePromptFromScratchOutput(BaseModel):
     examples: list[str] = Field(description="Examples to guide the model")
 
 # Use your provided API key
-HF_API_KEY = "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"
+HF_API_KEY = "hf_API KEY"
 
 def generate_prompt(input_data: GeneratePromptFromScratchInput, api_key: str = HF_API_KEY) -> GeneratePromptFromScratchOutput:
     client = InferenceClient(token=api_key)

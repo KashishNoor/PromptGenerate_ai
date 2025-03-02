@@ -30,7 +30,7 @@ class FinalPrompt(BaseModel):
     prompt: str
 
 # Hardcoded API keyad
-HF_API_KEY = "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"
+HF_API_KEY = "HF API KEY"
 
 # List of high-performance models
 MODELS = [
